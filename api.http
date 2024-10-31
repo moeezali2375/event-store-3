@@ -1,0 +1,25 @@
+@url=http://localhost:3000/api
+
+
+###
+
+POST {{url}}/register
+Content-Type: application/json
+
+{
+	"email": "moeezali2375@gmail.com"
+}
+
+###
+GET {{url}}/comment?eid=e2
+
+###
+POST {{url}}/comment
+Content-Type: application/json
+
+{
+	"email":"moeeza@example.com",
+	"name":"Moeez Ali",
+	"comment":"askjdksajdas",
+	"eid":"e2"
+}
